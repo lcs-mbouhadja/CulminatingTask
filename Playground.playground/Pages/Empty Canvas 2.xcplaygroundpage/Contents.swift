@@ -36,9 +36,56 @@ PlaygroundPage.current.liveView = canvas
 
  */
 
-// Replace this comment with your first comment – what is the goal of the code you're about to write?
-canvas.drawRectangle(at: Point(x: 50, y: 75), width: 100, height: 200)
+func turtleToMiddleOfCanvas() {
+    turtle.penUp()
+    turtle.forward(steps : canvas . width / 2)
+    
+    turtle.left(by : 90)
+    turtle.penUp()
+    turtle.forward(steps: canvas.width / 2)
+    
+    turtle.right(by: 90)
+    
+    let squareSize = 10
 
+    func drawArrow(){
+
+        turtle.drawSelf()
+
+         
+
+        // Instructions to draw arrow
+
+        turtle.penDown()
+
+        turtle.forward(steps: squareSize * 7)
+
+        
+
+        turtle.right(by: 90)
+
+        turtle.forward(steps: squareSize * 2)
+
+        turtle.left(by: 135)
+
+        turtle.forward(steps: squareSize * 4)
+
+        turtle.left(by: 90)
+
+        turtle.forward(steps: squareSize * 4 )
+
+        turtle.left(by: 135)
+
+        turtle.forward(steps: squareSize * 2)
+
+        turtle.right(by: 90)
+
+        turtle.forward(steps: squareSize * 7)
+
+        turtle.left(by: 90)
+
+        turtle.forward(steps: squareSize * 2)
+    
 /*:
  ## Show the Live View
  Don't see any results?
@@ -54,3 +101,4 @@ canvas.drawRectangle(at: Point(x: 50, y: 75), width: 100, height: 200)
  
  ![source_control](source-control.png "Source Control")
  */
+    }
