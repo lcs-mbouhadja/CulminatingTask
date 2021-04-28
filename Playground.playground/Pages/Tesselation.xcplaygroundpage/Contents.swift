@@ -121,14 +121,6 @@ drawplus()
 let squareSize = 11
 
 
-
-
-
-
-
-
-
-
 for _ in 1...6 {
 drawplus()
    
@@ -140,7 +132,7 @@ turtle.left(by: 90)
 
 turtle.forward(steps: squareSize * 36)
 turtle.left(by: 180)
-turtle.drawSelf()
+
 
 for _ in 1...6 {
     drawplus()
@@ -153,7 +145,7 @@ turtle.left(by: 90)
 
 turtle.forward(steps: squareSize * 36)
 turtle.left(by: 180)
-turtle.drawSelf()
+
 
 for _ in 1...6 {
     drawplus()
@@ -165,7 +157,7 @@ turtle.left(by: 90)
 
 turtle.forward(steps: squareSize * 36)
 turtle.left(by: 180)
-turtle.drawSelf()
+
 
 for _ in 1...6 {
     drawplus()
@@ -177,7 +169,7 @@ turtle.left(by: 90)
 
 turtle.forward(steps: squareSize * 36)
 turtle.left(by: 180)
-turtle.drawSelf()
+
 
 for _ in 1...6 {
     drawplus()
@@ -189,7 +181,7 @@ turtle.left(by: 90)
 
 turtle.forward(steps: squareSize * 36)
 turtle.left(by: 180)
-turtle.drawSelf()
+
 
 for _ in 1...6 {
     drawplus()
