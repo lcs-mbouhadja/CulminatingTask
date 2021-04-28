@@ -143,7 +143,6 @@
 				818878472199C6A0008CB375 /* CanvasGraphics */,
 				81DBFBF622E96442005EDE85 /* Documentation */,
 				81064A081C130A10007ED524 /* Animation */,
-				8188784D2199C7B8008CB375 /* Playground */,
 				81064A071C130A10007ED524 /* Products */,
 				814ADAE6248D509900F80486 /* Frameworks */,
 			);
@@ -235,6 +234,7 @@
 		81DBFBF622E96442005EDE85 /* Documentation */ = {
 			isa = PBXGroup;
 			children = (
+				8188784D2199C7B8008CB375 /* Playground */,
 				81DBFBF722E96442005EDE85 /* Enums.html */,
 				81DBFBF822E96442005EDE85 /* index.html */,
 				81DBFBF922E96442005EDE85 /* Functions.html */,

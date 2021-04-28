@@ -4,8 +4,8 @@
  
  Set the size of your desired canvas by adjusting the constants on lines 19 and 20.
  */
-let preferredWidth = 600
-let preferredHeight = 600
+let preferredWidth = 450
+let preferredHeight = 550
 /*:
  ## Required code
  
@@ -37,7 +37,18 @@ PlaygroundPage.current.liveView = canvas
  */
 
 // Replace this comment with your first comment – what is the goal of the code you're about to write?
-canvas.drawRectangle(at: Point(x: 50, y: 75), width: 100, height: 200)
+let squreSize = 10
+
+
+
+func drawPlus()
+{
+    turtle.penDown()
+    turtle.forward(steps: squreSize * 7)
+    
+    turtle.drawSelf()
+    
+}
 
 /*:
  ## Show the Live View

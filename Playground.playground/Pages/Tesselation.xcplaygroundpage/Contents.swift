@@ -57,7 +57,7 @@ canvas.drawShapesWithFill = true
 
 
 
-let squareSize = 10
+
 
 // Moves the turtle to the bottom left of the area to draw in
 func moveToDrawingStartPosition() {
@@ -103,28 +103,97 @@ func drawplus(){
     turtle.penUp()
     turtle.left(by: 90)
     turtle.forward(steps: squareSize * 4)
-    turtle.penDown()
+    
+    
+  
+}
+// This get the turtlw at the left side of a row so it is ready to draw a new one.
+func beginNewrow() {
+    turtle.penUp()
+    turtle.left(by: 90)
+    turtle.forward(steps: squareSize * 2)
     
     
 }
-    
-    
-   
-                        
 // START of your drawing}
 moveToDrawingStartPosition()
 drawplus()
+let squareSize = 11
+
+
+
+
+
+
+
+
+
+
+for _ in 1...6 {
+drawplus()
+   
+}
+turtle.left(by: 90)
+turtle.penUp()
+turtle.forward(steps: squareSize * 6)
+turtle.left(by: 90)
+
+turtle.forward(steps: squareSize * 36)
+turtle.left(by: 180)
 turtle.drawSelf()
 
-for _ in 1...4 {
-drawplus()
+for _ in 1...6 {
+    drawplus()
 }
 
-      
-    
+turtle.left(by: 90)
+turtle.penUp()
+turtle.forward(steps: squareSize * 6)
+turtle.left(by: 90)
 
+turtle.forward(steps: squareSize * 36)
+turtle.left(by: 180)
+turtle.drawSelf()
 
+for _ in 1...6 {
+    drawplus()
+}
+turtle.left(by: 90)
+turtle.penUp()
+turtle.forward(steps: squareSize * 6)
+turtle.left(by: 90)
 
+turtle.forward(steps: squareSize * 36)
+turtle.left(by: 180)
+turtle.drawSelf()
+
+for _ in 1...6 {
+    drawplus()
+}
+turtle.left(by: 90)
+turtle.penUp()
+turtle.forward(steps: squareSize * 6)
+turtle.left(by: 90)
+
+turtle.forward(steps: squareSize * 36)
+turtle.left(by: 180)
+turtle.drawSelf()
+
+for _ in 1...6 {
+    drawplus()
+}
+turtle.left(by: 90)
+turtle.penUp()
+turtle.forward(steps: squareSize * 6)
+turtle.left(by: 90)
+
+turtle.forward(steps: squareSize * 36)
+turtle.left(by: 180)
+turtle.drawSelf()
+
+for _ in 1...6 {
+    drawplus()
+}
     
     
 
