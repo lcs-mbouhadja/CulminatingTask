@@ -115,17 +115,18 @@ func beginNewrow() {
 
 //This is where my sketch begins.
 let squareSize = 10
-turtle.setY(to: 50)
+
 
 
 
 //Whole sheet
 canvas.highPerformance = true
 
-for _ in 1...2 {
+for _ in 1...13 {
     
     // Draw a row of arrows
-    for _ in 1...7 {
+    for _ in 1...7
+{
         drawArrow()
         turtle.left(by: 90)
         turtle.penUp()
@@ -133,13 +134,15 @@ for _ in 1...2 {
         
 
     }
-    turtle.drawSelf()
+   
 
     beginNewrow()
     turtle.drawSelf()
     
 }
 canvas.highPerformance = false
+
+
 
 
 
